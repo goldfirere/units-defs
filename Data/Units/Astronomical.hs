@@ -42,6 +42,6 @@ declareDerivedUnit "AstronomicalUnit" [t| Metre            |] 149597870700     (
 declareDerivedUnit "LightYear"        [t| Metre            |] 9460730472580800 (Just "ly")
 declareDerivedUnit "Parsec"           [t| AstronomicalUnit |] (648000 / piR)   (Just "pc")
 
-declareDerivedUnit "SolarMass"  [t| Kilo :@ Gramme |] (1.9891 * (10 ^ 30)) (Just "S")
-declareDerivedUnit "EarthMass"  [t| SolarMass      |] (1 / 332946.0487)    (Just "E")
-declareDerivedUnit "JovianMass" [t| SolarMass      |] (1 / 1047.348644)    (Just "MJ")
+declareDerivedUnit "SolarMass"  [t| Kilo :@ Gramme |] (1.9891 * (10 ^ (30 :: Integer))) (Just "S")
+declareDerivedUnit "EarthMass"  [t| SolarMass      |] (1 / 332946.0487)                 (Just "E")
+declareDerivedUnit "JovianMass" [t| SolarMass      |] (1 / 1047.348644)                 (Just "MJ")

@@ -16,9 +16,6 @@
 -- Wikipedia's page is /much/ better organized than any government
 -- resource immediately available.
 --
--- Where possible, reference have been made to UK legislation. However,
--- Wikipedia's page is /much/ better organized than any government
--- resource immediately available.
 -- The UK legislation used as references are as follows:
 -- <http://www.legislation.gov.uk/ukpga/1985/72/enacted>
 -- <http://www.legislation.gov.uk/uksi/1994/2867/schedule/part/VI/made>
